@@ -1,6 +1,6 @@
 ![xurxodev logo][xurxodevlogo] 
 # platzi-badges ![react](https://user-images.githubusercontent.com/5593590/62422736-7897de80-b6b7-11e9-8544-1de13e8181f8.png)
-ReactJS project realized in platzi course
+ReactJS project realized during a platzi course
 
 # License
 
