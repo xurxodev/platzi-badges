@@ -2,6 +2,23 @@
 # platzi-badges ![react](https://user-images.githubusercontent.com/5593590/62422736-7897de80-b6b7-11e9-8544-1de13e8181f8.png)
 ReactJS project realized during a platzi course
 
+## Setup
+
+```
+$ yarn install
+```
+Install project dependencies
+
+## Run the app
+
+Start development server:
+
+```
+$ yarn start
+```
+
+Run the app in the development mode in http://localhost:3000/.
+
 # License
 
 Copyright 2019 Jorge Sánchez Fernández
