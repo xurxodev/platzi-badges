@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
-import "./styles/Badge.css";
-import confLogo from "../images/badge-header.svg";
+import './styles/Badge.css';
+import confLogo from '../images/badge-header.svg';
 
 class Badge extends React.Component {
   render() {
