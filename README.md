@@ -1,5 +1,5 @@
 ![xurxodev logo][xurxodevlogo] 
-# platzi-badges ![react](https://user-images.githubusercontent.com/5593590/62422736-7897de80-b6b7-11e9-8544-1de13e8181f8.png)
+# ![platzi-badges](https://user-images.githubusercontent.com/5593590/62695928-a5116a80-b9d7-11e9-8f4b-e0ba88d4b735.png)
 ReactJS project realized during a platzi course
 
 ## Setup
@@ -19,7 +19,13 @@ $ yarn start
 
 Run the app in the development mode in http://localhost:3000/.
 
-# License
+## Screenshots
+
+<img width="1440" alt="Home" src="https://user-images.githubusercontent.com/5593590/62696548-f0784880-b9d8-11e9-94f8-6656962ceef5.png">
+<img width="1440" alt="Badges" src="https://user-images.githubusercontent.com/5593590/62696546-f0784880-b9d8-11e9-89d3-a4fccf389a99.png">
+<img width="1440" alt="New-Badge" src="https://user-images.githubusercontent.com/5593590/62696551-f0784880-b9d8-11e9-9ee8-85fa0ce297ab.png">
+
+## License
 
 Copyright 2019 Jorge Sánchez Fernández
 
