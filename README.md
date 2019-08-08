@@ -1,4 +1,3 @@
-![xurxodev logo][xurxodevlogo] 
 # ![platzi-badges](https://user-images.githubusercontent.com/5593590/62695928-a5116a80-b9d7-11e9-8f4b-e0ba88d4b735.png)
 ReactJS project realized during a platzi course
 
