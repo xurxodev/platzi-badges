@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./styles/BadgeNew.css";
+import './styles/BadgeNew.css';
 import logo from "../images/badge-header.svg";
 import Badge from "../components/Badge";
 import BadgeForm from "../components/BadgeForm";
