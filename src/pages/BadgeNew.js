@@ -1,7 +1,7 @@
 import React from "react";
 
 import './styles/BadgeNew.css';
-import logo from "../images/badge-header.svg";
+import logo from "../images/platziconf-logo.svg";
 import Badge from "../components/Badge";
 import BadgeForm from "../components/BadgeForm";
 
@@ -29,17 +29,17 @@ class BadgeNew extends React.Component {
     return (
       <React.Fragment>
         <div className="BadgeNew__hero">
-          <img className="img-fluid" src={logo} alt="Logo" />
+          <img className="BadgeNew__hero-image img-fluid" src={logo} alt="Logo" />
         </div>
 
         <div className="container">
           <div className="row">
             <div className="col-6">
               <Badge
-                firstName={this.state.form.firstName}
-                lastName={this.state.form.lastName}
-                twitter={this.state.form.twitter}
-                jobTitle={this.state.form.jobTitle}
+                firstName={this.state.form.firstName  || 'FIRST_NAME'}
+                lastName={this.state.form.lastName || 'LAST_NAME'}
+                twitter={this.state.form.twitter || 'twitter'}
+                jobTitle={this.state.form.jobTitle || 'JOB_TITLE'}
                 email={this.state.form.email}
                 avatarUrl="https://pbs.twimg.com/profile_images/1151113544362078209/chgA6VO9_400x400.jpg"
               />
