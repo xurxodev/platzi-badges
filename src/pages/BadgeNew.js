@@ -4,7 +4,10 @@ import "./styles/BadgeNew.css";
 import logo from "../images/platziconf-logo.svg";
 import Badge from "../components/Badge";
 import BadgeForm from "../components/BadgeForm";
+import PageLoading from "../components/PageLoading";
+import PageError from "../components/PageError";
 import api from "../api";
+
 
 class BadgeNew extends React.Component {
   state = {
@@ -19,6 +22,8 @@ class BadgeNew extends React.Component {
 
   handleChange = e => {
     this.setState({
+      loading: false,
+      error: null,
       form: {
         ...this.state.form,
         [e.target.name]: e.target.value
@@ -28,17 +33,24 @@ class BadgeNew extends React.Component {
 
   handleSubmit = async e => {
     e.preventDefault();
-    this.setState = { loading: true, error: null };
+    this.setState({ loading: true, error: null });
 
     try {
       await api.badges.create(this.state.form);
-      this.setState = { loading: false };
+      this.setState ({ loading: false });
+
+      this.props.history.push('/badges');
     } catch (error) {
-      this.setState = { loading: false, errir: error };
+      this.setState({ loading: false, error: error });
     }
   };
 
   render() {
+    debugger;
+    if (this.state.loading === true) {
+      return <PageLoading />;
+    }
+
     return (
       <React.Fragment>
         <div className="BadgeNew__hero">
@@ -66,6 +78,7 @@ class BadgeNew extends React.Component {
                 onChange={this.handleChange}
                 onSubmit={this.handleSubmit}
                 formValues={this.state.form}
+                error={this.state.error}
               />
             </div>
           </div>
