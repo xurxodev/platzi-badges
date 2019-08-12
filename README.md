@@ -20,9 +20,13 @@ Run the app in the development mode in http://localhost:3000/.
 
 ## Screenshots
 
-<img width="1440" alt="Home" src="https://user-images.githubusercontent.com/5593590/62696548-f0784880-b9d8-11e9-94f8-6656962ceef5.png">
-<img width="1440" alt="Badges" src="https://user-images.githubusercontent.com/5593590/62696546-f0784880-b9d8-11e9-89d3-a4fccf389a99.png">
-<img width="1440" alt="New-Badge" src="https://user-images.githubusercontent.com/5593590/62696551-f0784880-b9d8-11e9-9ee8-85fa0ce297ab.png">
+<img width="1440" alt="home" src="https://user-images.githubusercontent.com/5593590/62873746-3a866480-bd20-11e9-9873-57b32161fb5f.png">
+<img width="1440" alt="badges" src="https://user-images.githubusercontent.com/5593590/62873761-3f4b1880-bd20-11e9-9120-6a288551a8eb.png">
+<img width="1440" alt="badge-details" src="https://user-images.githubusercontent.com/5593590/62873780-42de9f80-bd20-11e9-8ce4-74b20ce3a49e.png">
+<img width="1440" alt="badge-new" src="https://user-images.githubusercontent.com/5593590/62873787-45d99000-bd20-11e9-875f-396927887717.png">
+<img width="1440" alt="badge-edit-png" src="https://user-images.githubusercontent.com/5593590/62873795-48d48080-bd20-11e9-96b2-af53b408b258.png">
+<img width="1440" alt="badge-modal-message" src="https://user-images.githubusercontent.com/5593590/62873801-4bcf7100-bd20-11e9-96ba-c672fa707a51.png">
+
 
 ## License
 
